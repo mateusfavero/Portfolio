@@ -9,43 +9,16 @@
 body {
     line-height: 1.6;
     background: #ffffff;
-    color: #fff;
+    color: #000;
 }
 
 header {
     background: #ffffff;
-    color: #000;
     padding: 1rem 2rem;
-    text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: background 0.3s ease, color 0.3s ease;
-}
-
-nav ul li a:hover {
-    background: #ffffff;
-    color: #333;
 }
 
 section {
@@ -57,6 +30,7 @@ section {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: left;
     overflow: hidden;
+    color: #fff; /* Para que o texto fique visível no fundo preto */
 }
 
 /* Container para a seção "Sobre" com layout flex */
@@ -80,6 +54,7 @@ img#perfil {
     flex-grow: 1; /* Faz o texto ocupar o restante do espaço */
 }
 
+/* Estilização da seção de habilidades */
 section#skills {
     display: flex;
     flex-direction: column;
@@ -122,6 +97,7 @@ section#skills {
     background: #555;
 }
 
+/* Estilização da seção de contato */
 .contact-container {
     display: flex;
     justify-content: space-between;
@@ -142,7 +118,7 @@ section#skills {
     display: block; /* Garante que o logo se comporte corretamente dentro do flexbox */
 }
 
-
+/* Estilização do footer */
 footer {
     background: #ffffff;
     color: #000;
@@ -156,4 +132,25 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+/* Estilos para links na navbar do Bootstrap */
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #333;
+    background-color: #ffffff;
+}
+
+/* Estilos para o botão da navbar no Bootstrap */
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }

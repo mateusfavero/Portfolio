@@ -63,6 +63,3 @@ Você pode personalizar o conteúdo da página editando o arquivo `index.html` n
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
 
-## Licença
-
-Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).

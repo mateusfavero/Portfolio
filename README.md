@@ -52,7 +52,7 @@ O projeto utiliza o [Bootstrap](https://getbootstrap.com/) para estilização e 
 
 ### Onde o Bootstrap é Utilizado:
 
-- **index.html**: O Bootstrap é importado diretamente no `<head>` da página HTML para fornecer classes utilitárias usadas em diversos elementos da página, como containers, grids e botões.
+- **index.html**: O Bootstrap é importado diretamente no `<head>` (NAVBAR) da página HTML para fornecer classes utilitárias usadas em diversos elementos da página, como containers, grids e botões.
 - **index.css**: O arquivo `index.css` pode conter customizações adicionais ou sobreposições às classes do Bootstrap para ajustar a aparência conforme necessário.
 
 ## Personalização
